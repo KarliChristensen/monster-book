@@ -18,11 +18,9 @@ function Page() {
       const anchorY = rekt.top + rekt.height / 2;
 
       const angleDeg = angle(mouseX, mouseY, anchorX, anchorY);
-      console.log(angleDeg);
-
       const eyes = document.querySelectorAll(`.eye`);
       eyes.forEach((eye) => {
-        eye.style.transform = `rotate(${245 + angleDeg}deg)`;
+        eye.style.transform = `rotate(${265 + angleDeg}deg)`;
       });
     };
 
@@ -44,16 +42,16 @@ function Page() {
   return (
     <div className="w-full h-dvh bg-[#e74b37] flex flex-col justify-between items-center">
       <div>Carousel</div>
-      <div className="relative w-1/2 mb-5 max-w-[25%]">
-        <Image id="anchor" src={Monster} alt="Monster background" />
+      <div id="anchor" className="relative w-1/2 mb-5 max-w-[25%]">
+        <Image src={Monster} alt="Monster background" />
         <div>
           <Image
-            className="eye absolute w-[45%] bottom-[23%] right-[52%]"
+            className="eye absolute w-[47%] bottom-[21%] right-[52%]"
             src={MonsterEyeLeft}
             alt="Monster eye left"
           />
           <Image
-            className="eye absolute w-[45%] bottom-[23%] left-[57%]"
+            className="eye absolute w-[47%] bottom-[21%] left-[55%]"
             src={MonsterEyeRight}
             alt="Monster eye right"
           />
