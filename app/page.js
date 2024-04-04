@@ -53,7 +53,7 @@ function Page() {
             alt="Monster eye left"
           />
           <Image
-            className="eye absolute w-[45%] bottom-[25%] left-[58%]"
+            className="eye absolute w-[45%] bottom-[23%] left-[57%]"
             src={MonsterEyeRight}
             alt="Monster eye right"
           />
