@@ -3,7 +3,7 @@
 import React, { useEffect } from "react";
 import Image from "next/image";
 import Monster from "../public/Monster.png";
-import MonsterEyeLeft from "../public/Pupil_1_2.png";
+import MonsterEyeLeft from "../public/Pupil_2_2.png";
 import MonsterEyeRight from "../public/Pupil_2_2.png";
 
 function Page() {
