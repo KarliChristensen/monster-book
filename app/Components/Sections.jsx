@@ -6,7 +6,7 @@ import Book from "./Sections/Book";
 
 function Sections() {
   return (
-    <div className="w-full h-full snay-y overflow-y-hidden snap-mandatory scroll-smooth mt-20">
+    <div className="w-full h-full snay-y overflow-y-auto snap-mandatory scroll-smooth mt-20">
       <Book />
       <About />
       <Contact />
