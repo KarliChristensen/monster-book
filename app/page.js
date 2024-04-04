@@ -48,7 +48,7 @@ function Page() {
         <Image id="anchor" src={Monster} alt="Monster background" />
         <div>
           <Image
-            className="eye absolute w-[45%] bottom-[25%] right-[53%]"
+            className="eye absolute w-[45%] bottom-[23%] right-[52%]"
             src={MonsterEyeLeft}
             alt="Monster eye left"
           />
