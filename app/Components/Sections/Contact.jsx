@@ -7,7 +7,7 @@ function Contact() {
     <div id="contact" className="w-full h-full">
       <div className="flex flex-col justify-center items-center">
         <Image
-          className="w-[90%]"
+          className="w-[90%] max-w-[700px]"
           src={Authors}
           alt="Title with authors Karli and Maria"
         />
