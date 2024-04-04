@@ -1,10 +1,11 @@
 import React from "react";
 import Monster from "./Components/Monster";
+import Sections from "./Components/Sections";
 
 function Page() {
   return (
     <div className="w-full h-dvh bg-[#e74b37] flex flex-col justify-between items-center">
-      <div className="w-full h-full"></div>
+      <Sections />
       <Monster />
     </div>
   );
