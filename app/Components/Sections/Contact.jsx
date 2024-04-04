@@ -18,22 +18,25 @@ function Contact() {
         <div className="flex flex-col mt-10">
           <h2 className="font-semibold">Maria Tran Larsen:</h2>
           <p className="mr-5 mt-3 bg-orange-900/50 py-2 px-5">
-            Maria er en verdensklasse grafiks designer, der godt kan lide monstre, ufoer
-            og andre fjollede ting, og så tygger hun på lampeskærme når man ikke
-            kigger. Nå ja, og så tegner hun monstre.
+            Maria er en verdensklasse grafiks designer, der godt kan lide
+            monstre, ufoer og andre fjollede ting, og så tygger hun på
+            lampeskærme når man ikke kigger. Nå ja, og så tegner hun monstre.
           </p>
         </div>
         <div className="flex">
-          <a className="mr-2" href="">
+          <a className="mr-2" href="https://mariatran.cargo.site/">
             <Image
-              className="mt-5 h-8 w-8"
+              className="mt-5 h-8 w-8 hover:scale-110 transition-all ease-in-out"
               src={WebsiteIcon}
               alt="Website image link"
             />
           </a>
-          <a href="">
+          <a
+            className="flex items-center hover:scale-110 transition-all ease-in-out"
+            href="mailto:dingotran@gmail.com"
+          >
             <Image
-              className="mt-5 h-8 w-10"
+              className="mt-5 h-7 w-9"
               src={EmailIcon}
               alt="Website image link"
             />
@@ -48,16 +51,19 @@ function Contact() {
           </p>
         </div>
         <div className="flex">
-          <a className="mr-2" href="">
+          <a className="mr-2" href="https://nbi-portfolio.vercel.app/">
             <Image
-              className="mt-5 h-8 w-8"
+              className="mt-5 h-8 w-8 hover:scale-110 transition-all ease-in-out"
               src={WebsiteIcon}
               alt="Website image link"
             />
           </a>
-          <a href="">
+          <a
+            className="flex items-center"
+            href="mailto:karlichristensen@post.com"
+          >
             <Image
-              className="mt-5 h-8 w-10"
+              className="mt-5 h-7 w-9 hover:scale-110 transition-all ease-in-out"
               src={EmailIcon}
               alt="Website image link"
             />

@@ -9,19 +9,19 @@ function Navbar() {
       <Image className="absolute w-20 p-3" src={Titel} alt="Titel image" />
       <ul className="w-full flex flex-row justify-center items-center space-x-2">
         <Link
-          className="hover:scale-105 transition-all ease-in-out"
+          className="hover:scale-105 transition-all ease-in-out font-extrabold "
           href="#book"
         >
           Bog
         </Link>
         <Link
-          className="hover:scale-105 transition-all ease-in-out"
+          className="hover:scale-105 transition-all ease-in-out font-extrabold "
           href="#about"
         >
           Forfatterne
         </Link>
         <Link
-          className="hover:scale-105 transition-all ease-in-out"
+          className="hover:scale-105 transition-all ease-in-out font-extrabold "
           href="#contact"
         >
           Kontakt

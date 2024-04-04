@@ -42,8 +42,8 @@ function Monster() {
 
   return (
     <div className="w-full bg-[#e74b37] flex flex-col justify-between items-center">
-      <div id="anchor" className="relative w-1/2 my-5 max-w-[25%]">
-{/*         <Image className="absolute" src={MonsterFur} alt="Monster fur" /> */}
+      <div id="anchor" className="relative w-1/2 my-5 max-w-[225px]">
+        {/*         <Image className="absolute" src={MonsterFur} alt="Monster fur" /> */}
         <Image src={MonsterBackground} alt="Monster background" />
         <div>
           <Image
