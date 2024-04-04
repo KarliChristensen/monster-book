@@ -47,12 +47,12 @@ function Monster() {
         <Image src={MonsterBackground} alt="Monster background" />
         <div>
           <Image
-            className="eye absolute w-[49%] bottom-[20%] right-[53%]"
+            className="eye absolute w-[49%] bottom-[20%] right-[53%] transition-all ease-in-out duration-200"
             src={MonsterEyeLeft}
             alt="Monster eye left"
           />
           <Image
-            className="eye absolute w-[49%] bottom-[20%] left-[55%]"
+            className="eye absolute w-[49%] bottom-[20%] left-[55%] transition-all ease-in-out duration-200"
             src={MonsterEyeRight}
             alt="Monster eye right"
           />
