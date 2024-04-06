@@ -8,7 +8,6 @@ function Sections() {
   return (
     <div className="w-full h-full snay-y overflow-y-hidden snap-mandatory scroll-smooth mt-20">
       <Book />
-      <About />
       <Contact />
     </div>
   );

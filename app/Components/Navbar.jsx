@@ -16,15 +16,9 @@ function Navbar() {
         </Link>
         <Link
           className="hover:scale-105 transition-all ease-in-out font-extrabold "
-          href="#about"
-        >
-          Forfatterne
-        </Link>
-        <Link
-          className="hover:scale-105 transition-all ease-in-out font-extrabold "
           href="#contact"
         >
-          Kontakt
+          Forfatterne
         </Link>
       </ul>
     </header>
