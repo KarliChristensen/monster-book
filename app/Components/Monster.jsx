@@ -42,7 +42,7 @@ function Monster() {
   };
 
   return (
-    <div className="w-full md:h-[200px] pb-5 mt-2 md:mt-5 bg-[#e74b37] flex flex-col items-center overflow-hidden">
+    <div className="w-full md:h-[170px] pb-5 md:pb-0 mt-2 md:mt-5 bg-[#e74b37] flex flex-col items-center overflow-hidden">
       <div id="anchor" className="w-[120px] md:w-full relative max-w-[225px]">
         <Image
           className="absolute bottom-[2%] right-[100%] max-w-[500px] md:max-w-[1000px]"
