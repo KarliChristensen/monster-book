@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import Authors from "../../../public/Forfattere.png";
 import WebsiteIcon from "../../../public/icons/admin-site-alt3.256x256.png";
 import EmailIcon from "../../../public/icons/envelope.256x193.png";
 import ProfileKarli from "../../../public/images/1549751914876.jpg";
@@ -101,7 +100,7 @@ function Contact() {
           </div>
           <p className="my-5 mx-10 self-center md:max-w-[600px]">
             Karli bygger ting og oversætter tekster. Engang byggede han et hul i
-            haven, fik han skældud og blev sat til at skrive en bog om monstre.
+            haven, fik skældud, og blev sat til at skrive en bog om monstre.
           </p>
         </div>
       </div>

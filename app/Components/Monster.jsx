@@ -3,8 +3,8 @@
 import React, { useEffect } from "react";
 import Image from "next/image";
 import MonsterBackground from "../../public/Monster.png";
-import MonsterFurLeft from "../../public/PelsLeft.png";
-import MonsterFurRight from "../../public/PelsRight.png";
+import MonsterFurLeft from "../../public/PelsLeftL.png";
+import MonsterFurRight from "../../public/PelsRightL.png";
 import MonsterEyeLeft from "../../public/Pupil_2_2.png";
 import MonsterEyeRight from "../../public/Pupil_2_2.png";
 
@@ -42,8 +42,18 @@ function Monster() {
   };
 
   return (
-    <div className="w-full bg-[#e74b37] flex flex-col justify-between items-center">
-      <div id="anchor" className="relative w-1/2 my-5 max-w-[225px]">
+    <div className="w-full md:h-[200px] pb-5 mt-2 md:mt-5 bg-[#e74b37] flex flex-col items-center overflow-hidden">
+      <div id="anchor" className="w-[120px] md:w-full relative max-w-[225px]">
+        <Image
+          className="absolute bottom-[2%] right-[100%] max-w-[500px] md:max-w-[1000px]"
+          src={MonsterFurLeft}
+          alt="Monster fur left"
+        />
+        <Image
+          className="absolute bottom-[2%] left-[80%] max-w-[500px] md:max-w-[1000px]"
+          src={MonsterFurRight}
+          alt="Monster fur right"
+        />
         <Image src={MonsterBackground} alt="Monster background" />
         <div>
           <Image
@@ -57,7 +67,6 @@ function Monster() {
             alt="Monster eye right"
           />
         </div>
-      
       </div>
     </div>
   );
