@@ -12,7 +12,7 @@ function Navbar() {
           className="hover:scale-105 transition-all ease-in-out font-extrabold "
           href="#book"
         >
-          Bog
+          Bogen
         </Link>
         <Link
           className="hover:scale-105 transition-all ease-in-out font-extrabold "

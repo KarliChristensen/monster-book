@@ -1,6 +1,4 @@
 import React from "react";
-import About from "./Sections/About";
-import { Container } from "postcss";
 import Contact from "./Sections/Contact";
 import Book from "./Sections/Book";
 
