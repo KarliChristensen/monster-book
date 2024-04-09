@@ -13,7 +13,6 @@ function Contact() {
       id="contact"
       className="w-full h-full flexoverflow-y-auto overflow-x-hidden snap-start"
     >
-
       {/* /* Maria */}
 
       <div className="mr-5 md:mr-0 flex flex-col w-full">
