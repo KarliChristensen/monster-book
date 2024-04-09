@@ -10,7 +10,7 @@ export const metadata = {
   description: "A lille hjemmeside om en lille bog, om et lille monster.",
   images: [
     {
-      url: "https://i.ibb.co/09kK8DP/Thumbnail.png",
+      url: "https://ibb.co/HP0C1Fm",
       width: 1200,
       height: 630,
     },
@@ -27,10 +27,7 @@ export default function RootLayout({ children }) {
           itemprop="description"
           content="A lille hjemmeside om en lille bog, om et lille monster."
         />
-        <meta
-          itemprop="image"
-          content="https://i.ibb.co/09kK8DP/Thumbnail.png"
-        />
+        <meta itemprop="image" content="https://ibb.co/HP0C1Fm" />
 
         {/* Facebook Meta Tags */}
         <meta property="og:url" content="https://monster-taupe.vercel.app" />
@@ -40,10 +37,7 @@ export default function RootLayout({ children }) {
           property="og:description"
           content="A lille hjemmeside om en lille bog, om et lille monster."
         />
-        <meta
-          property="og:image"
-          content="https://i.ibb.co/09kK8DP/Thumbnail.png"
-        />
+        <meta property="og:image" content="https://ibb.co/HP0C1Fm" />
 
         {/* Twitter Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -52,10 +46,7 @@ export default function RootLayout({ children }) {
           name="twitter:description"
           content="A lille hjemmeside om et lille bog, om et lille monster."
         />
-        <meta
-          name="twitter:image"
-          content="https://i.ibb.co/09kK8DP/Thumbnail.png"
-        />
+        <meta name="twitter:image" content="https://ibb.co/HP0C1Fm" />
       </Head>
       <body className={inter.className}>
         <Navbar />
