@@ -1,9 +1,55 @@
 import { Inter } from "next/font/google";
+import { ImageResponse } from "next/og";
 import Navbar from "./Components/Navbar";
-import Head from "next/head";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+
+export const runtime = "edge";
+
+export const alt = "Lille Monster";
+export const size = {
+  width: 1200,
+  height: 630,
+};
+
+export const contentType = "image/png";
+
+export async function Image() {
+  const interSemiBold = fetch(
+    new URL("../public/Thumbnail.png", import.meta.url)
+  ).then((res) => res.arrayBuffer());
+
+  return new ImageResponse(
+    (
+      // ImageResponse JSX element
+      <div
+        style={{
+          fontSize: 128,
+          background: "white",
+          width: "100%",
+          height: "100%",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        Lille Monster
+      </div>
+    ),
+    {
+      ...size,
+      fonts: [
+        {
+          name: "Inter",
+          data: await interSemiBold,
+          style: "normal",
+          weight: 400,
+        },
+      ],
+    }
+  );
+}
 
 export const metadata = {
   title: "Lille Monster",
@@ -20,34 +66,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
-        {/* Google / Search Engine Tags */}
-        <meta itemprop="name" content="Lille Monster" />
-        <meta
-          itemprop="description"
-          content="A lille hjemmeside om en lille bog, om et lille monster."
-        />
-        <meta itemprop="image" content="https://ibb.co/HP0C1Fm" />
-
-        {/* Facebook Meta Tags */}
-        <meta property="og:url" content="https://monster-taupe.vercel.app" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="Lille Monster" />
-        <meta
-          property="og:description"
-          content="A lille hjemmeside om en lille bog, om et lille monster."
-        />
-        <meta property="og:image" content="https://ibb.co/HP0C1Fm" />
-
-        {/* Twitter Meta Tags */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Lille Monster" />
-        <meta
-          name="twitter:description"
-          content="A lille hjemmeside om et lille bog, om et lille monster."
-        />
-        <meta name="twitter:image" content="https://ibb.co/HP0C1Fm" />
-      </Head>
       <body className={inter.className}>
         <Navbar />
         {children}
