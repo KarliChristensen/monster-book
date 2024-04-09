@@ -52,9 +52,9 @@ const Book = () => {
         <p>
           Med udgangspunkt i vores egne oplevelser og erfaringer som forældre,
           skrev vi bogen med henblik på at kunne give vores børn et indblik i
-          hvordan det var nogle behårede, savlende små bæster... Men at vi ikke
-          ville have det anderledes. Her nogle udklip hvor vi drikker kaffe, med
-          Otte. <br></br>P.S Katten hedder forresten Otto.
+          hvordan de var nogle behårede, savlende små bæster... Men at vi ikke
+          ville have det var på nogen anden måde. Her nogle udklip hvor vi
+          drikker kaffe med Otte. <br></br>P.S Katten hedder forresten Otto.
         </p>
       </div>
     </section>
