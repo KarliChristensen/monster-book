@@ -11,12 +11,12 @@ function Contact() {
   return (
     <section
       id="contact"
-      className="w-full h-full flexoverflow-y-auto overflow-x-hidden snap-start"
+      className="w-full flex overflow-x-hidden snap-start"
     >
       {/* /* Maria */}
 
-      <div className="mr-5 md:mr-0 flex flex-col w-full">
-        <div className="flex flex-col mt-10">
+      <div className="h-[calc(100vh-165px)] md:h-[calc(100vh-235px)] md:mr-0 flex flex-col justify-center items-center w-full">
+        <div className="flex flex-col">
           <div className="flex justify-between mr-5 md:mr-0 min-w-[335px] max-w-[500px] bg-orange-900/50 rounded-r-full md:bg-transparent md:flex-col-reverse md:self-center">
             <div className="flex flex-col ml-5 md:ml-0 self-center text-center">
               <Image
@@ -60,7 +60,7 @@ function Contact() {
 
         {/* /* Karli */}
 
-        <div className="mr-5 flex flex-col w-full">
+        <div className="flex flex-col w-full">
           <div className="flex md:flex-col justify-end mt-5 md:mt-10 w-full">
             <div className="flex flex-row-reverse grow justify-between ml-5 md:ml-0 min-w-[335px] max-w-[500px] bg-orange-900/50 rounded-l-full md:bg-transparent md:flex-col-reverse md:self-center">
               <div className="flex flex-col mr-5 md:mr-0 self-center text-center">

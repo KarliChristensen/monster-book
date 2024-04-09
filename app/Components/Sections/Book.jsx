@@ -29,7 +29,7 @@ const Book = () => {
   return (
     <section
       id="book"
-      className="embla h-full w-full flex flex-col justify-center"
+      className="embla h-full w-full flex flex-col justify-center snap-start"
     >
       <Image className="w-2/3 self-center my-10" src={TitelLine} alt="Titel" />
       <div className="overflow-hidden rounded-lg" ref={emblaRef}>

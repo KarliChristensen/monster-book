@@ -8,7 +8,7 @@ function Sections() {
 
 
   return (
-    <div className="w-full h-full snay-y overflow-y-auto snap-mandatory scroll-smooth mt-20">
+    <div className="w-full h-full snap-y snap-mandatory overflow-y-scroll mandatory scroll-smooth scrollbar-hide mt-20">
       <Book />
       <Contact />
     </div>
