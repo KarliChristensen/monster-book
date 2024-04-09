@@ -14,11 +14,16 @@ export const metadata = {
       width: 1200,
       height: 630,
     },
+    {
+      url: "/Thumbnail.png", // Reference to the local image
+      width: 1200,
+      height: 630,
+    },
   ],
 };
 
 export default function RootLayout({ children }) {
-  const thumbnail = metadata.images[0];
+  const thumbnail = metadata.images[1];
 
   return (
     <html lang="en">
