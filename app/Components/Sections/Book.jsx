@@ -48,7 +48,7 @@ const Book = () => {
           <NextButton onClick={onNextButtonClick} disabled={nextBtnDisabled} />
         </div>
       </div>
-      <div className="p-3 text-sm bg-orange-950/10 rounded-lg">
+      <div className="p-3 text-sm md:text-base bg-orange-950/10 rounded-lg">
         <p>
           Med udgangspunkt i vores egne oplevelser og erfaringer som forældre,
           skrev vi bogen med henblik på at kunne give vores børn et indblik i
