@@ -50,7 +50,7 @@ export async function Image() {
   );
 }
 
-export const metadata = {
+/* export const metadata = {
   title: "Lille Monster",
   description: "A lille hjemmeside om en lille bog, om et lille monster.",
   images: [
@@ -60,7 +60,7 @@ export const metadata = {
       height: 630,
     },
   ],
-};
+}; */
 
 export default function RootLayout({ children }) {
   return (
