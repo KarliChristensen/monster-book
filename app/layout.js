@@ -22,7 +22,6 @@ export async function Image() {
 
   return new ImageResponse(
     (
-      // ImageResponse JSX element
       <div
         style={{
           fontSize: 128,
