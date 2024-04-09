@@ -54,7 +54,7 @@ function Contact() {
           <p className="mt-5 mx-10 self-center md:max-w-[600px]">
             Maria er en grafiks designer, der godt kan lide dinosaurer, ufoer og
             andre fjollede ting, og så tygger hun på lampeskærme når man ikke
-            kigger. Nå ja, og så tegner hun monstre og.
+            kigger. Nå ja, og så tegner hun monstre.
           </p>
         </div>
 
