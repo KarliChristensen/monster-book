@@ -1,4 +1,5 @@
 import { Inter } from "next/font/google";
+import { ImageResponse } from 'next/og';
 import Navbar from "./Components/Navbar";
 import Image from "next/image";
 import "./globals.css";
