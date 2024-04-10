@@ -9,13 +9,10 @@ import NameMaria from "../../../public/images/NameM.png";
 
 function Contact() {
   return (
-    <section
-      id="contact"
-      className="w-full flex overflow-x-hidden snap-start"
-    >
+    <section id="contact" className="w-full sm:h-full flex overflow-x-hidden snap-start">
       {/* /* Maria */}
 
-      <div className="h-[calc(100vh-105px)] md:h-[calc(100vh-225px)] md:mr-0 flex flex-col justify-center items-center w-full">
+      <div className="mt-10 md:mt-0 md:mr-0 flex flex-col justify-center items-center w-full">
         <div className="flex flex-col">
           <div className="flex justify-between mr-5 md:mr-0 min-w-[335px] max-w-[500px] bg-orange-900/50 rounded-r-full md:bg-transparent md:flex-col-reverse md:self-center">
             <div className="flex flex-col ml-5 md:ml-0 self-center text-center">
@@ -52,9 +49,9 @@ function Contact() {
             />
           </div>
           <p className="mt-5 mx-10 text-sm md:text-base self-center md:max-w-[600px]">
-            Maria er en grafiks designer, der godt kan lide dinosaurer, ufoer og
-            andre fjollede ting, og så tygger hun på lampeskærme når man ikke
-            kigger. Nå ja, og så tegner hun monstre.
+            Maria kan godt lide at tegne. Hun tegner ufoer, spejlæg og andre
+            fjollede ting - og tygger på lampeskærme når hun tror man ikke
+            kigger. Maria mødte en dag Karli. Ham kan hun også godt lide.
           </p>
         </div>
 
@@ -98,8 +95,10 @@ function Contact() {
             </div>
           </div>
           <p className="my-5 mx-10 text-sm md:text-base self-center md:max-w-[600px]">
-            Karli bygger ting og oversætter tekster. Engang byggede han et hul i
-            haven, fik skældud, og blev sat til at skrive en bog om monstre.
+            Karli bygger ting og skriver. Engang byggede han et hul i jorden og
+            fik skældud. Men han har aldrig spist lampeskærme. Da Karli mødte
+            Maria flyttede der pludselig et monster ind hos dem. Det var meget
+            forvirrende. Det har de lavet en bog om.
           </p>
         </div>
       </div>

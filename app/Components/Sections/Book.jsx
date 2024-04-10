@@ -16,7 +16,7 @@ import Image5 from "../../../public/carousel/436838659_390579813897924_739522890
 import TitelLine from "../../../public/images/TitelLine.png";
 
 const Book = () => {
-  const options = {};
+  const options = { loop: true };
   const [emblaRef, emblaApi] = useEmblaCarousel(options);
 
   const {
@@ -57,12 +57,11 @@ const Book = () => {
           Alt ånder fred og ro i den lille familie; en mand, en dame og en kat.
           Indtil pludselig en dag døren går op med et brag og et lille monster
           kommer ind i deres liv! Men hvad stiller man op med et monster? Hvad
-          spiser det? Hvorfor råber det? Hvor vil det helst sove? En charmerende
-          billedbog for små monstre og deres store, nogle gange lidt kedelige
-          voksne, om hvor kaotisk familieforøgelse kan være ... og når alt
-          kommer til alt: dejlig og kram-fremkaldende!
+          spiser det? Hvorfor råber det? Hvor vil det helst sove? <br /> En
+          charmerende billedbog for små monstre og deres store, nogle gange lidt
+          kedelige voksne, om hvor kaotisk familieforøgelse kan være ... og når
+          alt kommer til alt: dejlig og kram-fremkaldende!
         </p>
-        <p>Forlag Jensen & Dalgaard</p>
       </div>
     </section>
   );
