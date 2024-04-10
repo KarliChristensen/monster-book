@@ -16,35 +16,41 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        {/* Google / Search Engine Tags */}
-
-        <meta itemprop="name" content="Lille Monster" />
+        <title>Lille Monster</title>
         <meta
-          itemprop="description"
+          name="description"
           content="A lille hjemmeside om en lille bog, om et lille monster."
         />
-        <meta itemprop="image" content={imageUrl} />
 
-        {/* Facebook Meta Tags */}
-
-        <meta property="og:url" content="https://monster-taupe.vercel.app" />
+        {/*  Facebook Meta Tags  */}
+        <meta property="og:url" content="https://monster-taupe.vercel.app/" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Lille Monster" />
         <meta
           property="og:description"
           content="A lille hjemmeside om en lille bog, om et lille monster."
         />
-        <meta property="og:image" content={imageUrl} />
+        <meta
+          property="og:image"
+          content="https://opengraph.b-cdn.net/production/documents/3e0779af-49fa-4ac4-b131-f1cc50a83dfb.png?token=U4hsp3zw_-HKvLfmwZPVt0njD_JVR9r8eVX6laodc-s&height=675&width=1200&expires=33248775526"
+        />
 
-        {/* Twitter Meta Tags */}
-
+        {/*  Twitter Meta Tags  */}
         <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="monster-taupe.vercel.app" />
+        <meta
+          property="twitter:url"
+          content="https://monster-taupe.vercel.app/"
+        />
         <meta name="twitter:title" content="Lille Monster" />
         <meta
           name="twitter:description"
           content="A lille hjemmeside om en lille bog, om et lille monster."
         />
-        <meta name="twitter:image" content={imageUrl} />
+        <meta
+          name="twitter:image"
+          content="https://opengraph.b-cdn.net/production/documents/3e0779af-49fa-4ac4-b131-f1cc50a83dfb.png?token=U4hsp3zw_-HKvLfmwZPVt0njD_JVR9r8eVX6laodc-s&height=675&width=1200&expires=33248775526"
+        />
       </Head>
       <body className={inter.className}>
         <Navbar />
