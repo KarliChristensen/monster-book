@@ -1,7 +1,6 @@
 import { Inter } from "next/font/google";
 import Navbar from "./Components/Navbar";
 import Head from "next/head";
-import Link from "next/link";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -11,7 +10,7 @@ export const metadata = {
   description: "A lille hjemmeside om en lille bog, om et lille monster.",
   images: [
     {
-      url: "/Thumbnail.png", // Reference to the local image
+      url: "https://monster-taupe.vercel.app/og.png",
       width: 1200,
       height: 630,
     },
@@ -26,23 +25,16 @@ export default function RootLayout({ children }) {
       <Head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
+        <meta name="image" content={imageUrl} />
         <meta property="og:title" content={metadata.title} />
         <meta property="og:description" content={metadata.description} />
-        <meta property="og:image" content="https://monster-taupe.vercel.app/og.png"></meta>
+        <meta property="og:image" content={imageUrl}></meta>
         <meta property="og:image:width" content={1200} />
         <meta property="og:image:height" content={630} />
-        <meta
-          property="og:url"
-          content="https://monster-taupe.vercel.app/og.png"
-        ></meta>
+        <meta property="og:url" content={imageUrl}></meta>
         <meta name="twitter:title" content={metadata.title} />
         <meta name="twitter:description" content={metadata.description} />
-        <meta name="twitter:image" content="https://monster-taupe.vercel.app/og.png" />
-        <meta
-          property="og:description"
-          content="Brittany Chiang is a software engineer who builds accessible, inclusive products and digital experiences for the web."
-        ></meta>
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content={imageUrl} />
       </Head>
       <body className={inter.className}>
         <Navbar />
