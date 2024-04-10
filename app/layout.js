@@ -11,8 +11,8 @@ export const metadata = {
   images: [
     {
       url: "https://monster-taupe.vercel.app/og.png",
-      width: 1200,
-      height: 630,
+      width: 741,
+      height: 416,
     },
   ],
 };
@@ -29,8 +29,8 @@ export default function RootLayout({ children }) {
         <meta property="og:title" content={metadata.title} />
         <meta property="og:description" content={metadata.description} />
         <meta property="og:image" content={imageUrl}></meta>
-        <meta property="og:image:width" content={1200} />
-        <meta property="og:image:height" content={630} />
+        <meta property="og:image:width" content={741} />
+        <meta property="og:image:height" content={416} />
         <meta property="og:url" content={imageUrl}></meta>
         <meta name="twitter:title" content={metadata.title} />
         <meta name="twitter:description" content={metadata.description} />

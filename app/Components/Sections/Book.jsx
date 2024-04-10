@@ -31,7 +31,11 @@ const Book = () => {
       id="book"
       className="embla h-full w-full flex flex-col justify-center snap-start"
     >
-      <Image className="w-2/3 self-center my-10 hidden sm:block" src={TitelLine} alt="Titel" />
+      <Image
+        className="w-2/3 self-center my-10 hidden sm:block"
+        src={TitelLine}
+        alt="Titel"
+      />
       <div className="overflow-hidden rounded-lg" ref={emblaRef}>
         <div className="embla__container flex">
           <Image src={Image1} alt="Image 1 of 5 from the book" />
@@ -48,14 +52,17 @@ const Book = () => {
           <NextButton onClick={onNextButtonClick} disabled={nextBtnDisabled} />
         </div>
       </div>
-      <div className="p-3 text-sm md:text-base bg-orange-950/10 rounded-lg">
+      <div className="p-3 text-xs md:text-base bg-orange-950/10 rounded-lg">
         <p>
-          Med udgangspunkt i vores egne oplevelser og erfaringer som forældre,
-          skrev vi bogen med henblik på at kunne give vores børn et indblik i
-          hvordan de var nogle behårede, savlende små bæster... Men at vi ikke
-          ville have det var på nogen anden måde. Her nogle udklip hvor vi
-          drikker kaffe med Otte. <br></br>P.S Katten hedder forresten Otto.
+          Alt ånder fred og ro i den lille familie; en mand, en dame og en kat.
+          Indtil pludselig en dag døren går op med et brag og et lille monster
+          kommer ind i deres liv! Men hvad stiller man op med et monster? Hvad
+          spiser det? Hvorfor råber det? Hvor vil det helst sove? En charmerende
+          billedbog for små monstre og deres store, nogle gange lidt kedelige
+          voksne, om hvor kaotisk familieforøgelse kan være ... og når alt
+          kommer til alt: dejlig og kram-fremkaldende!
         </p>
+        <p>Forlag Jensen & Dalgaard</p>
       </div>
     </section>
   );

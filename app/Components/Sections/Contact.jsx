@@ -15,7 +15,7 @@ function Contact() {
     >
       {/* /* Maria */}
 
-      <div className="h-[calc(100vh-165px)] md:h-[calc(100vh-235px)] md:mr-0 flex flex-col justify-center items-center w-full">
+      <div className="h-[calc(100vh-115px)] md:h-[calc(100vh-235px)] md:mr-0 flex flex-col justify-center items-center w-full">
         <div className="flex flex-col">
           <div className="flex justify-between mr-5 md:mr-0 min-w-[335px] max-w-[500px] bg-orange-900/50 rounded-r-full md:bg-transparent md:flex-col-reverse md:self-center">
             <div className="flex flex-col ml-5 md:ml-0 self-center text-center">
@@ -51,7 +51,7 @@ function Contact() {
               alt="Profile picture of Maria Tran Larsen."
             />
           </div>
-          <p className="mt-5 mx-10 self-center md:max-w-[600px]">
+          <p className="mt-5 mx-10 text-sm md:text-base self-center md:max-w-[600px]">
             Maria er en grafiks designer, der godt kan lide dinosaurer, ufoer og
             andre fjollede ting, og så tygger hun på lampeskærme når man ikke
             kigger. Nå ja, og så tegner hun monstre.
@@ -97,7 +97,7 @@ function Contact() {
               />
             </div>
           </div>
-          <p className="my-5 mx-10 self-center md:max-w-[600px]">
+          <p className="my-5 mx-10 text-sm md:text-base self-center md:max-w-[600px]">
             Karli bygger ting og oversætter tekster. Engang byggede han et hul i
             haven, fik skældud, og blev sat til at skrive en bog om monstre.
           </p>
