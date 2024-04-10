@@ -2,11 +2,11 @@
 
 import React, { useEffect } from "react";
 import Image from "next/image";
-import MonsterBackground from "../../public/Monster.png";
-import MonsterFurLeft from "../../public/PelsLeftL.png";
-import MonsterFurRight from "../../public/PelsRightL.png";
-import MonsterEyeLeft from "../../public/Pupil_2_2.png";
-import MonsterEyeRight from "../../public/Pupil_2_2.png";
+import MonsterBackground from "../../public/images/Monster.png";
+import MonsterFurLeft from "../../public/images/PelsLeftL.png";
+import MonsterFurRight from "../../public/images/PelsRightL.png";
+import MonsterEyeLeft from "../../public/images/Pupil_1_2.png";
+import MonsterEyeRight from "../../public/images/Pupil_2_2.png";
 
 function Monster() {
   useEffect(() => {

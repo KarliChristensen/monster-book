@@ -4,8 +4,8 @@ import WebsiteIcon from "../../../public/icons/admin-site-alt3.256x256.png";
 import EmailIcon from "../../../public/icons/envelope.256x193.png";
 import ProfileKarli from "../../../public/images/1549751914876.jpg";
 import ProfileMaria from "../../../public/images/1626197218200.jpg";
-import NameKarli from "../../../public/NameK.png";
-import NameMaria from "../../../public/NameM.png";
+import NameKarli from "../../../public/images/NameK.png";
+import NameMaria from "../../../public/images/NameM.png";
 
 function Contact() {
   return (
@@ -15,7 +15,7 @@ function Contact() {
     >
       {/* /* Maria */}
 
-      <div className="h-[calc(100vh-115px)] md:h-[calc(100vh-235px)] md:mr-0 flex flex-col justify-center items-center w-full">
+      <div className="h-[calc(100vh-105px)] md:h-[calc(100vh-225px)] md:mr-0 flex flex-col justify-center items-center w-full">
         <div className="flex flex-col">
           <div className="flex justify-between mr-5 md:mr-0 min-w-[335px] max-w-[500px] bg-orange-900/50 rounded-r-full md:bg-transparent md:flex-col-reverse md:self-center">
             <div className="flex flex-col ml-5 md:ml-0 self-center text-center">
