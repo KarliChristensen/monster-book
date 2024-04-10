@@ -24,7 +24,7 @@ function Contact() {
                 alt="Named image of author - Maria"
                 className="self-center mt-5 w-[35%] min-w-[135px]"
               ></Image>
-              <h3>Grafisk Designer</h3>
+              <h3>Illustrator</h3>
               <div className="flex justify-center">
                 <a className="mr-2" href="https://mariatran.cargo.site/">
                   <Image

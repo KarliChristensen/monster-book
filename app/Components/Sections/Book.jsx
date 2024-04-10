@@ -31,7 +31,7 @@ const Book = () => {
       id="book"
       className="embla h-full w-full flex flex-col justify-center snap-start"
     >
-      <Image className="w-2/3 self-center my-10" src={TitelLine} alt="Titel" />
+      <Image className="w-2/3 self-center my-10 hidden sm:block" src={TitelLine} alt="Titel" />
       <div className="overflow-hidden rounded-lg" ref={emblaRef}>
         <div className="embla__container flex">
           <Image src={Image1} alt="Image 1 of 5 from the book" />

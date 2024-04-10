@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import Navbar from "./Components/Navbar";
 import Head from "next/head";
+import Link from "next/link";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -10,11 +11,6 @@ export const metadata = {
   description: "A lille hjemmeside om en lille bog, om et lille monster.",
   images: [
     {
-      url: "https://ibb.co/HP0C1Fm",
-      width: 1200,
-      height: 630,
-    },
-    {
       url: "/Thumbnail.png", // Reference to the local image
       width: 1200,
       height: 630,
@@ -23,7 +19,7 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  const thumbnail = metadata.images[1];
+  const imageUrl = "https://monster-taupe.vercel.app/og.png";
 
   return (
     <html lang="en">
@@ -32,12 +28,20 @@ export default function RootLayout({ children }) {
         <meta name="description" content={metadata.description} />
         <meta property="og:title" content={metadata.title} />
         <meta property="og:description" content={metadata.description} />
-        <meta property="og:image" content={thumbnail.url} />
-        <meta property="og:image:width" content={thumbnail.width} />
-        <meta property="og:image:height" content={thumbnail.height} />
+        <meta property="og:image" content="https://monster-taupe.vercel.app/og.png"></meta>
+        <meta property="og:image:width" content={1200} />
+        <meta property="og:image:height" content={630} />
+        <meta
+          property="og:url"
+          content="https://monster-taupe.vercel.app/og.png"
+        ></meta>
         <meta name="twitter:title" content={metadata.title} />
         <meta name="twitter:description" content={metadata.description} />
-        <meta name="twitter:image" content={thumbnail.url} />
+        <meta name="twitter:image" content="https://monster-taupe.vercel.app/og.png" />
+        <meta
+          property="og:description"
+          content="Brittany Chiang is a software engineer who builds accessible, inclusive products and digital experiences for the web."
+        ></meta>
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <body className={inter.className}>
