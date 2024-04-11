@@ -5,7 +5,7 @@ import Image from "next/image";
 import MonsterBackground from "../../public/images/Monster.png";
 import MonsterFurLeft from "../../public/images/PelsLeftL.png";
 import MonsterFurRight from "../../public/images/PelsRightL.png";
-import MonsterEyeLeft from "../../public/images/Pupil_1_2.png";
+import MonsterEyeLeft from "../../public/images/Pupil_2_2.png";
 import MonsterEyeRight from "../../public/images/Pupil_2_2.png";
 
 function Monster() {
