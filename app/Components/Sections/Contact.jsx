@@ -22,7 +22,7 @@ function Contact() {
                 className="self-center mt-5 w-[35%] min-w-[135px]"
               ></Image>
               <h3>Illustrator</h3>
-              <div className="flex justify-center">
+              <div className="flex justify-center space-x-5">
                 <a className="mr-2" href="https://mariatran.cargo.site/">
                   <Image
                     className="mt-5 h-6 w-6 hover:scale-110 transition-all ease-in-out"
@@ -67,8 +67,8 @@ function Contact() {
                   className="self-center mt-5 w-[50%] min-w-[150px]"
                 ></Image>
                 <h3>Web Developer</h3>
-                <div className="flex justify-center">
-                  <a className="mr-2" href="https://nbi-portfolio.vercel.app/">
+                <div className="flex justify-center space-x-5">
+                  <a className="mr-2" href="https://karlichristensen.vercel.app/">
                     <Image
                       className="mt-5 h-6 w-6 hover:scale-110 transition-all ease-in-out"
                       src={WebsiteIcon}
@@ -77,7 +77,7 @@ function Contact() {
                   </a>
                   <a
                     className="flex items-center hover:scale-110 transition-all ease-in-out"
-                    href="mailto:karlichristensen@post.com"
+                    href="mailto:KarliChristensen@proton.me"
                   >
                     <Image
                       className="mt-5 h-6 w-8"

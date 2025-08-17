@@ -36,7 +36,7 @@ const Book = () => {
         src={TitelLine}
         alt="Titel"
       />
-      <div className="overflow-hidden rounded-lg" ref={emblaRef}>
+      <div className="overflow-hidden rounded mx-5" ref={emblaRef}>
         <div className="embla__container flex">
           <Image src={Image1} alt="Image 1 of 5 from the book" />
           <Image src={Image2} alt="Image 2 of 5 from the book" />
@@ -52,7 +52,7 @@ const Book = () => {
           <NextButton onClick={onNextButtonClick} disabled={nextBtnDisabled} />
         </div>
       </div>
-      <div className="p-3 text-xs md:text-base bg-orange-950/10 rounded-lg">
+      <div className="p-3 text-xs md:text-base bg-orange-950/10 rounded mx-5">
         <p>
           Alt ånder fred og ro i den lille familie; en mand, en dame og en kat.
           Indtil pludselig en dag døren går op med et brag og et lille monster
