@@ -32,11 +32,11 @@ const Book = () => {
       className="embla h-full w-full flex flex-col justify-center snap-start"
     >
       <Image
-        className="w-2/3 self-center my-10 hidden sm:block"
+        className="w-2/6 self-center my-5 hidden lg:block"
         src={TitelLine}
         alt="Titel"
       />
-      <div className="overflow-hidden rounded mx-5" ref={emblaRef}>
+      <div className="overflow-hidden mx-5 mt-5 lg:mt-0" ref={emblaRef}>
         <div className="embla__container flex">
           <Image src={Image1} alt="Image 1 of 5 from the book" />
           <Image src={Image2} alt="Image 2 of 5 from the book" />
@@ -46,21 +46,16 @@ const Book = () => {
         </div>
       </div>
 
-      <div className="embla__controls">
+      <div className="embla__controls hidden md:block">
         <div className="flex justify-center">
           <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
           <NextButton onClick={onNextButtonClick} disabled={nextBtnDisabled} />
         </div>
       </div>
-      <div className="p-3 text-xs md:text-base bg-orange-950/10 rounded mx-5">
+      <div className="p-3 text-sm md:text-base bg-orange-950/10 rounded mx-5 mt-5 md:mt-0">
         <p>
           Alt ånder fred og ro i den lille familie; en mand, en dame og en kat.
-          Indtil pludselig en dag døren går op med et brag og et lille monster
-          kommer ind i deres liv! Men hvad stiller man op med et monster? Hvad
-          spiser det? Hvorfor råber det? Hvor vil det helst sove? <br /> En
-          charmerende billedbog for små monstre og deres store, nogle gange lidt
-          kedelige voksne, om hvor kaotisk familieforøgelse kan være ... og når
-          alt kommer til alt: dejlig og kram-fremkaldende!
+          Indtil pludselig en dag et monster sparker døren ind.
         </p>
       </div>
     </section>

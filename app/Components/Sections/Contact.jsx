@@ -9,7 +9,7 @@ import NameMaria from "../../../public/images/NameM.png";
 
 function Contact() {
   return (
-    <section id="contact" className="w-full sm:h-full flex overflow-x-hidden snap-start">
+    <section id="contact" className="w-full py-10 min-h-screen flex overflow-x-hidden snap-start">
       {/* /* Maria */}
 
       <div className="mt-10 md:mt-0 md:mr-0 flex flex-col justify-center items-center w-full">
@@ -68,7 +68,7 @@ function Contact() {
                 ></Image>
                 <h3>Web Developer</h3>
                 <div className="flex justify-center space-x-5">
-                  <a className="mr-2" href="https://karlichristensen.vercel.app/">
+                  <a className="mr-2" href="https://karli.vercel.app/">
                     <Image
                       className="mt-5 h-6 w-6 hover:scale-110 transition-all ease-in-out"
                       src={WebsiteIcon}

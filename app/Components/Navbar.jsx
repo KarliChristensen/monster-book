@@ -8,7 +8,7 @@ import Line from "../../public/images/Streg1.png";
 function Navbar() {
   return (
     <header className="fixed top-0 bg-transparent w-full">
-      <div className="relative flex flex-row items-center h-20">
+      <div className="relative flex flex-row items-center h-16">
         <ul className="w-full flex flex-row justify-center items-center space-x-1 md:space-x-4">
           <li className="hover:rotate-3 transform transition-all ease-in-out duration-300">
             <Link href="#book">

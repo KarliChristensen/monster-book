@@ -42,32 +42,54 @@ function Monster() {
   };
 
   return (
-    <div className="w-full md:h-[170px] pb-5 md:pb-0 mt-2 md:mt-5 bg-[#e74b37] flex flex-col items-center overflow-hidden">
-      <div id="anchor" className="w-[120px] md:w-full relative max-w-[225px]">
+    <div className="w-full h-[50px] sm:h-[70px] max-h-[80px] py-2 px-5 bg-[#e74b37] flex justify-center items-center overflow-hidden">
+      <Image
+        className="h-full min-h-[40px] w-max"
+        src={MonsterFurLeft}
+        alt="Monster fur left"
+      />
+      <Image
+        className="h-full min-h-[40px] w-max"
+        src={MonsterFurRight}
+        alt="Monster fur left"
+      />
+      <Image
+        className="h-full min-h-[40px] w-max"
+        src={MonsterFurLeft}
+        alt="Monster fur left"
+      />
+      <div id="anchor" className="h-full w-auto shrink-0 relative mx-2">
         <Image
-          className="absolute bottom-[2%] right-[100%] max-w-[500px] md:max-w-[1000px] transition-all duration-500 ease-in-out"
-          src={MonsterFurLeft}
-          alt="Monster fur left"
-        />
-        <Image
-          className="absolute bottom-[2%] left-[80%] max-w-[500px] md:max-w-[1000px] transition-all duration-500 ease-in-out"
-          src={MonsterFurRight}
-          alt="Monster fur right"
-        />
-        <Image src={MonsterBackground} alt="Monster background" />
-        <div>
+          className="h-full w-full"
+          src={MonsterBackground} alt="Monster background" />
+        <div className="absolute inset-0">
           <Image
-            className="eye absolute w-[49%] bottom-[20%] right-[53%]"
+            className="eye absolute w-[49%] right-[53%] top-[-5%]"
             src={MonsterEyeLeft}
             alt="Monster eye left"
           />
           <Image
-            className="eye absolute w-[49%] bottom-[20%] left-[55%]"
+            className="eye absolute w-[49%] left-[55%] top-[-5%]"
             src={MonsterEyeRight}
             alt="Monster eye right"
           />
         </div>
       </div>
+      <Image
+        className="h-full min-h-[40px] w-max"
+        src={MonsterFurRight}
+        alt="Monster fur right"
+      />
+      <Image
+        className="h-full min-h-[40px] w-max"
+        src={MonsterFurLeft}
+        alt="Monster fur right"
+      />
+      <Image
+        className="h-full min-h-[40px] w-max"
+        src={MonsterFurRight}
+        alt="Monster fur right"
+      />
     </div>
   );
 }
